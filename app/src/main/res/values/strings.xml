@@ -1,0 +1,33 @@
+<resources>
+    <!-- Nome do aplicativo -->
+    <string name="app_name">Shopping List App</string>
+
+    <!-- Strings para a tela de adicionar lista -->
+    <string name="list_name">Nome da Lista</string>
+    <string name="enter_list_name">Salvar Nome da Lista</string>
+    <string name="save">Save</string>
+
+    <!-- Strings para a tela principal (lista de compras) -->
+    <string name="add_new_list">Adicionar nova lista</string>
+
+    <!-- Strings para itens de compra -->
+    <string name="purchased">Comprada</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Deletar</string>
+
+    <!-- Strings para o item da lista de compras -->
+    <string name="list_image">List Image</string>
+
+    <!-- Strings relacionadas a itens -->
+    <string name="item_name">Nome do Item</string>
+    <string name="item_name_hint">Nome do Item</string>
+    <string name="item_quantity">Quantidade</string>
+    <string name="item_quantity_hint">Quantidade</string>
+    <string name="item_unit">Unidade</string>
+    <string name="item_unit_hint">Unidade (e.g., kg, un)</string>
+    <string name="item_category">Categoria</string>
+    <string name="save_item">Salvar Item</string>
+
+    <!-- Nova string que está faltando -->
+    <string name="add_new_item">Adicionar novo item</string>
+</resources>

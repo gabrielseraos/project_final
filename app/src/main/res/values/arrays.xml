@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="categories_array">
+        <item>Frutas</item>
+        <item>Carnes</item>
+        <item>Legumes</item>
+        <item>Outros</item>
+    </string-array>
+</resources>

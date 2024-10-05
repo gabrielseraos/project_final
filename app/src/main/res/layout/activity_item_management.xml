@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- RecyclerView para exibir os itens -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewItems"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+    <!-- Botão para adicionar novo item -->
+    <Button
+        android:id="@+id/buttonAddItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_item"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botão para salvar a lista -->
+    <Button
+        android:id="@+id/buttonSaveList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save List"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
